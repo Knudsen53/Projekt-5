@@ -8,9 +8,9 @@ const event = () => {
     console.log("Hejsa", scrollTop);
 
     if (scrollTop > 0) {
-        header.style.height = '100px';
+        header.classList.add('slim')
     } else {
-        header.style.height = '200px';
+        header.classList.remove('slim')
     }
 }
 
