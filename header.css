@@ -4,7 +4,7 @@ body, html{
 }
 
 #header {
-    background-color: yellow;
+    background-color: #2E362D;
     border: 5px solid green;
     box-sizing: border-box;
     height: 200px;
@@ -12,6 +12,7 @@ body, html{
     transition: height 0.5s ease-out;
     position: fixed;
     top: 0;
+    color: #ffffff;
 }
 
 #header.slim {
@@ -20,4 +21,32 @@ body, html{
 
 main{
     margin-top: 200px;
+}
+
+#navMenuItems{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navListItems{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+}
+
+#navListItems li {
+    padding: 0 10px 0 10px;
+}
+
+#navListItems li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navListItems li a:hover{
+    cursor: pointer;
 }
