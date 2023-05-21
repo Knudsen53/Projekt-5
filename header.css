@@ -10,7 +10,7 @@ body, html{
 
 #header {
     background-color: #2E362D;
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     box-sizing: border-box;
     height: 123px;
     width: 100%;
@@ -18,47 +18,61 @@ body, html{
     position: fixed;
     top: 0;
     color: #ffffff;
+    display: flex;
+    align-items: center;
 
 }
 
 #header.slim {
-    height: 100px;
+    height: 80px;
 }
 
 main{
-    margin-top: 200px;
+    margin-top: 123px;
 }
 
 #navMenu{
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
+    padding: 0 20px 0 20px;
+    width: 100%;
 }
 
 #navMenuItems{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     justify-content: center;
+    width: 100%;
 }
 
 #navLogo{
     text-align: center;
 }
 
+
+#navListContainer{
+    /*border: 2px solid green;*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 #navListItems{
-    border: 2px solid blue;
+    /*border: 2px solid pink;*/
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0;
-
+    padding: 0 20px 0 20px;
+    width: 100%;
 }
 
 #navListItems li {
-    border: 2px solid yellow;
-    padding: 0 10px 0 10px;
+    /*border: 2px solid yellow;*/
+    padding: 0 15px 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
 
 #navListItems li a {
@@ -86,4 +100,10 @@ main{
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 10px;
+}
+
+@media only screen and (max-width: 1130px){
+    body {
+        background-color: pink;
+    }
 }
