@@ -19,11 +19,12 @@ window.addEventListener('scroll', event);
 
 
 //Burgermenu click event
-const burgermenu = document.getElementById('burgerMenu');
+const burger_menu_icon = document.getElementById('burgerMenuIcon');
+const my_mobile_navbar = document.getElementById('navbararrarar');
 
 const toggleOpen = () => {
-    console.log("burgermenu lives")
-    burgermenu.classList.toggle('open');
+    console.log("burgermenu lives matter")
+       .classList.toggle('open');
 }
 
-burgermenu.addEventListener('click', toggleOpen);
+burger_menu_icon.addEventListener('click', toggleOpen);

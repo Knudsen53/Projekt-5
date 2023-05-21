@@ -114,11 +114,13 @@ main{
         border: 2px solid yellow;
         display: flex;
         cursor: pointer;
+        align-items: center;
+        justify-content: right;
     }
 
-    #burgerMenu.open {
+    /*#burgerMenu.open {
         height: 50%;
         width: 50%;
 
-    }
+    }*/
 }
