@@ -111,12 +111,12 @@ main{
     }
 
     #burgerMenu {
-        display: block;
+        border: 2px solid yellow;
+        display: flex;
         cursor: pointer;
     }
 
     #burgerMenu.open {
-        border: 2px solid yellow;
         height: 50%;
         width: 50%;
 

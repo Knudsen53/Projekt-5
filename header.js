@@ -17,7 +17,13 @@ const event = () => {
 
 window.addEventListener('scroll', event);
 
+
 //Burgermenu click event
-document.getElementById('burgerMenu').addEventListener('click', function() {
-    this.classList.toggle('open');
-});
+const burgermenu = document.getElementById('burgerMenu');
+
+const toggleOpen = () => {
+    console.log("burgermenu lives")
+    burgermenu.classList.toggle('open');
+}
+
+burgermenu.addEventListener('click', toggleOpen);
