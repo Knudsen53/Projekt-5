@@ -1,18 +1,24 @@
-body, html{
+*{
     padding: 0;
     margin: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
 }
 
 #header {
     background-color: #2E362D;
     border: 5px solid green;
     box-sizing: border-box;
-    height: 200px;
+    height: 123px;
     width: 100%;
     transition: height 0.5s ease-out;
     position: fixed;
     top: 0;
     color: #ffffff;
+
 }
 
 #header.slim {
@@ -23,10 +29,19 @@ main{
     margin-top: 200px;
 }
 
+#navMenu{
+    border: 5px solid blue;
+}
+
 #navMenuItems{
     border: 2px solid red;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: center;
+}
+
+#navLogo{
+    text-align: center;
 }
 
 #navListItems{
@@ -39,14 +54,36 @@ main{
 }
 
 #navListItems li {
+    border: 2px solid yellow;
     padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navListItems li a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 22px;
 }
 
 #navListItems li a:hover{
     cursor: pointer;
+}
+
+#navLogo p {
+    font-size: 45px;
+    margin: 0;
+}
+
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myInput {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
 }
