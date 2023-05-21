@@ -10,7 +10,7 @@ body, html{
 
 #header {
     background-color: #2E362D;
-    /*border: 5px solid green;*/
+    border: 5px solid green;
     box-sizing: border-box;
     height: 123px;
     width: 100%;
@@ -32,7 +32,7 @@ main{
 }
 
 #navMenu{
-    /*border: 5px solid blue;*/
+    border: 5px solid blue;
     padding: 0 20px 0 20px;
     width: 100%;
 }
@@ -101,9 +101,24 @@ main{
     border-radius: 20px;
     padding: 10px;
 }
+#burgerMenu{
+    display: none;
+}
 
 @media only screen and (max-width: 1130px){
-    body {
-        background-color: pink;
+    #navListContainer {
+        display: none;
+    }
+
+    #burgerMenu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #burgerMenu.open {
+        border: 2px solid yellow;
+        height: 50%;
+        width: 50%;
+
     }
 }

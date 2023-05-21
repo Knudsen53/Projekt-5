@@ -1,5 +1,6 @@
 console.log("works");
 
+//Header scroll event
 const header = document.getElementById('header');
 
 const event = () => {
@@ -15,3 +16,8 @@ const event = () => {
 }
 
 window.addEventListener('scroll', event);
+
+//Burgermenu click event
+document.getElementById('burgerMenu').addEventListener('click', function() {
+    this.classList.toggle('open');
+});

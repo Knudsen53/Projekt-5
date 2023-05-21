@@ -23,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684672123979</updated>
-      <workItem from="1684672125766" duration="9757000" />
+      <workItem from="1684672125766" duration="10580000" />
     </task>
     <servers />
   </component>
@@ -90,5 +91,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1684683015053" />
+    <state x="1409" y="324" key="run.anything.popup" timestamp="1684685081394">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1409" y="324" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684685081394" />
   </component>
 </project>
