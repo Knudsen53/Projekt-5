@@ -167,6 +167,13 @@ main {
         object-fit: cover;
     }
 
+    #myMobileNavBarItems{
+
+    }
+
+    #myMobileNavBarItems li a{
+        text-decoration: none;
+    }
     /*#myMobileNavBar.open.animation {*/
     /*    top: 100%; !* Reset the top position *!*/
     /*}*/

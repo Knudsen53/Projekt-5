@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elements/topImgOverlay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoadContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684672123979</updated>
       <workItem from="1684672125766" duration="13550000" />
-      <workItem from="1684743027719" duration="18574000" />
+      <workItem from="1684743027719" duration="18817000" />
     </task>
     <servers />
   </component>
