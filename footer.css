@@ -16,8 +16,28 @@ footer{
     bottom: 0;
     position: relative;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p{
     color: white;
+}
+
+#footerItemsContainer {
+    border: 2px solid red;
+    display: flex;
+}
+
+#footerLeft{
+    border: 2px solid blue;
+}
+
+#footerRight {
+    border: 2px solid yellow;
+}
+
+#footerMediaContainer {
+    display: flex;
 }
