@@ -1,12 +1,9 @@
-console.log("works");
 
 //Header scroll event
-const header = document.getElementById('header');
+const header = document.getElementById('headerContainer');
 
 const event = () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    console.log("Hejsa", scrollTop);
 
     if (scrollTop > 0) {
         header.classList.add('slim')
@@ -30,7 +27,6 @@ const toggleOpen = () => {
 }
 
 burgerMenuIcon.addEventListener('click', toggleOpen);
-
 
 //Navbar
 // function updateNavbarPosition() {

@@ -1,33 +1,37 @@
 #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#headerContainer {
     background-color: #2E362D;
     /*border: 5px solid green;*/
     box-sizing: border-box;
     height: 123px;
     width: 100%;
     transition: height 0.5s ease-out;
-    position: fixed;
-    top: 0;
+    position: relative;
     color: #ffffff;
     display: flex;
     align-items: center;
-
 }
 
-#header.slim {
+#headerContainer.slim {
     height: 80px;
 }
 
-main{
+main {
     margin-top: 123px;
 }
 
-#navMenu{
+#navMenu {
     /*border: 5px solid blue;*/
     padding: 0 20px 0 20px;
     width: 100%;
 }
 
-#navMenuItems{
+#navMenuItems {
     /*border: 2px solid red;*/
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -35,19 +39,19 @@ main{
     width: 100%;
 }
 
-#navLogo{
+#navLogo {
     text-align: center;
 }
 
 
-#navListContainer{
+#navListContainer {
     /*border: 2px solid green;*/
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-#navListItems{
+#navListItems {
     /*border: 2px solid pink;*/
     display: flex;
     justify-content: space-between;
@@ -71,7 +75,7 @@ main{
     font-size: 22px;
 }
 
-#navListItems li a:hover{
+#navListItems li a:hover {
     cursor: pointer;
 }
 
@@ -96,11 +100,32 @@ main{
     display: none;
 }
 
-#myMobileNavbar{
-    display:none;
+#mobileNavbarContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
-@media only screen and (max-width: 1130px){
+#myMobileNavBar {
+    color: red;
+    /*width: 100%;*/
+    /*height: 50%;*/
+    background-color: yellow;
+    /*position: fixed;*/
+    /*top: 100%;*/
+    /*transition: top 0.3s ease-in-out;*/
+    /*display:none;*/
+    width: 100%;
+    position: absolute;
+    top: -130px;
+    right: 0;
+    transition: top 0.5s;
+    z-index: -5;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1130px) {
     #navListContainer {
         display: none;
     }
@@ -118,14 +143,7 @@ main{
     }
 
     #myMobileNavBar.open {
-        border: 2px solid red;
-        width: 100%;
-        height: 50%;
-        display: flex;
-        background-color: yellow;
-        position: fixed;
-        top: 100%;
-        transition: top 0.3s ease-in-out;
+        top: 0;
     }
 
     #searchContainer {
@@ -152,7 +170,6 @@ main{
     /*#myMobileNavBar.open.animation {*/
     /*    top: 100%; !* Reset the top position *!*/
     /*}*/
-
     /*.slim #myMobileNavBar.open {*/
     /*    top: 100vh; !* Adjust this value if needed *!*/
     /*}*/
