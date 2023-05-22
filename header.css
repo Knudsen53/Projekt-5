@@ -10,7 +10,7 @@ body, html{
 
 #header {
     background-color: #2E362D;
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     box-sizing: border-box;
     height: 123px;
     width: 100%;
@@ -32,7 +32,7 @@ main{
 }
 
 #navMenu{
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     padding: 0 20px 0 20px;
     width: 100%;
 }
