@@ -23,6 +23,7 @@ footer{
 
 footer p{
     color: white;
+    font-size : 14px;
 }
 
 #footerItemsContainer {
@@ -32,12 +33,39 @@ footer p{
 
 #footerLeft{
     border: 2px solid blue;
+    padding: 0 130px 0 130px;
+    margin: auto;
 }
 
 #footerRight {
     border: 2px solid yellow;
+    padding: 0 130px 0 130px;
+    margin: auto;
 }
 
 #footerMediaContainer {
     display: flex;
+}
+
+.footerHeading{
+    font-size: 25px;
+}
+
+#line1 {
+    height: 2px;
+    background: white;
+}
+
+#line2 {
+    height: 2px;
+    background: white;
+}
+
+#lineMiddle {
+    border-left: 2px solid white;
+    height: 220px;
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -3px;*/
+    /*top: 0;*/
 }
