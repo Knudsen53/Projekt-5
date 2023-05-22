@@ -19,12 +19,28 @@ window.addEventListener('scroll', event);
 
 
 //Burgermenu click event
-const burger_menu_icon = document.getElementById('burgerMenuIcon');
-const my_mobile_navbar = document.getElementById('navbararrarar');
+const burgerMenuIcon = document.getElementById('burgerMenuIcon');
+const myMobileNavBar = document.getElementById('myMobileNavBar');
+const body = document.body;
 
 const toggleOpen = () => {
     console.log("burgermenu lives matter")
-       .classList.toggle('open');
+    myMobileNavBar.classList.toggle('open');
+    body.classList.toggle('menu-open');
 }
 
-burger_menu_icon.addEventListener('click', toggleOpen);
+burgerMenuIcon.addEventListener('click', toggleOpen);
+
+
+//Navbar
+// function updateNavbarPosition() {
+//     const headerHeight = header.offsetHeight;
+//     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+//     const navbarTop = headerHeight + scrollTop;
+//     myMobileNavBar.style.top = `${navbarTop}px`;
+// }
+//
+// // Call the function initially and whenever the window is resized or scrolled
+// updateNavbarPosition();
+// window.addEventListener('resize', updateNavbarPosition);
+// window.addEventListener('scroll', updateNavbarPosition);
