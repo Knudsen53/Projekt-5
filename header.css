@@ -101,6 +101,7 @@ main{
     border-radius: 20px;
     padding: 10px;
 }
+
 #burgerMenu{
     display: none;
 }
@@ -137,9 +138,17 @@ main{
         transition: top 0.3s ease-in-out;
     }
 
-    #myMobileNavBar.open.animation {
-        top: 100%; /* Reset the top position */
+    #searchContainer {
+        justify-content: right;
     }
+
+    #myInput {
+        width: 80px;
+    }
+
+    /*#myMobileNavBar.open.animation {*/
+    /*    top: 100%; !* Reset the top position *!*/
+    /*}*/
 
     /*.slim #myMobileNavBar.open {*/
     /*    top: 100vh; !* Adjust this value if needed *!*/
