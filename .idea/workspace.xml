@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +101,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1684749528362" />
+    <state x="864" y="91" width="832" height="1218" key="find.popup" timestamp="1684867691453">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="864" y="91" width="832" height="1218" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684867691453" />
     <state x="1409" y="324" key="run.anything.popup" timestamp="1684685081394">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
