@@ -1,0 +1,35 @@
+#header {
+    position: relative;
+    z-index: 2;
+}
+
+#banner {
+    position: relative;
+    background-image: url("images/p4billeder/faq2f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.overlay h1 {
+    font-size: 32px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
