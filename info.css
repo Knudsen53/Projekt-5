@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.greenCarQuestienBox{
+	width: 100%;
+	height: 350px;
+}
+
+.greenCarQuestienH1{
+	float:right;
+	margin: 10px 50px 10px 10px;
+	font-family: "Magistral Bold";
+	width: 600px;
+}
+.trees, .charger{
+	width: 350px;
+	height: 250px;
+	float: left;
+	margin: 10px 10px 10px 150px;
+}
+
+.greenCarQuestien{
+	width: 600px;
+	height: 250px;
+	float: right;
+	margin: 10px 50px 10px 10px;
+	font-family: "Proxima Nova";
+}
+
+.carPriceBox{
+	width: 600px;
+	height: 150px;
+}
+
+.carPriceH1, .infoChargersH1, .infoChargersH3, .abonnementH1, .chargingTypesH1, .citychargersH3, .fasthargerH3, .lightningChargerH3, .teslaH3, .ownChargerH1{
+	float:left;
+	margin: 10px 10px 10px 50px;
+	font-family: "Magistral Bold";
+	width: 600px;
+}	
+
+.carPrice, .infoChargers, .infoChargersList, .chargingTypes, .citychargers, .citychargersList, .fastharger, .fasthargerList, .lightningCharger, .lightningChargerList, .tesla, .teslaList{
+	width: 600px;
+	height: 70px;
+	float: left;
+	margin: 10px 10px 10px 50px;
+	font-family: "Proxima Nova";
+}
+
+.infoChargersBox{
+	width: 600px;
+	height: 650px;
+}
+
+.providersLogo{
+	width: 600px;
+	height: 20px;
+	margin: 50px 10px 10px 10px;
+	float: left;
+}
+
+.abonnementBox, .ownChargerBox{
+	width: 100%;
+	height: 600px;
+}
+
+.charger{
+	float: left;
+	margin: 10px 50px 10px 10px;
+	width: 350px;
+	height: 240px;
+}
+
+.abonnement, .ownCharger{
+	width: 600px;
+	height: 250px;
+	float: right;
+	margin: 1px 50px 10px 10px;
+	font-family: "Proxima Nova"
+}
+
+.chargingTypesBox{
+	width: 600px;
+	height: 1000px;
+}
