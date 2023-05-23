@@ -1,0 +1,17 @@
+#contactImgContainer{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.imgContainerItems{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainerItems img{
+    height: 370px;
+    width: 270px;
+    object-fit: cover;
+}
