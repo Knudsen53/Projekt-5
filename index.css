@@ -26,6 +26,19 @@
 }
 
 
+.contentImageContainer img{
+    object-fit: cover;
+    width: 500px;
+    height: 350px;
+}
+.contentContainers{
+    display: flex;
+}
+
+#mainInfoContainers div:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 @media only screen and (max-width: 1040px) {
     #indexBannerTextContainer{
         transform: scale(0.7);
