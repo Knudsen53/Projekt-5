@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Burgermenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/Burgermenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/T.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/T.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/at.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/at.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/fb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/insta.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/insta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/pc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Assets/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\p4billeder" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\Elements" />
@@ -76,7 +88,7 @@
       <workItem from="1684672125766" duration="13550000" />
       <workItem from="1684743027719" duration="19684000" />
       <workItem from="1684825648941" duration="13731000" />
-      <workItem from="1684918616961" duration="13560000" />
+      <workItem from="1684918616961" duration="14192000" />
     </task>
     <servers />
   </component>
