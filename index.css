@@ -1,0 +1,64 @@
+#indexBannerContainer {
+    /*border: 4px solid red;*/
+    background-image: url("images/p4billeder/forside4f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#indexBannerTextContainer {
+    /*border: 2px solid blue;*/
+    color: white;
+    text-align: center;
+}
+
+#indexBannerTextContainer h1 {
+    font-size: 155px;
+}
+
+#indexBannerTextContainer h2 {
+    font-size: 60px;
+}
+
+
+@media only screen and (max-width: 1040px) {
+    #indexBannerTextContainer{
+        transform: scale(0.7);
+        text-align: center;
+    }
+    #indexBannerContainer {
+        display: flex;
+        justify-content: center;
+    }
+    #indexBannerContainer {
+        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+
+    #indexBannerContainer {
+        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    #indexBannerTextContainer{
+        transform: scale(0.5);
+        text-align: center;
+        margin-right: 90px;
+    }
+}
