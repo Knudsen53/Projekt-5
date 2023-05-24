@@ -15,6 +15,9 @@
     color: #ffffff;
     display: flex;
     align-items: center;
+    box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
 }
 
 #headerContainer.slim {
