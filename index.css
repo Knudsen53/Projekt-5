@@ -28,14 +28,14 @@
 
 /********************MAIN INFO******************/
 
-.contentImageContainer img{
+.contentImageContainer img {
     object-fit: cover;
     width: 500px;
     height: 350px;
     margin-right: 100px;
 }
 
-.contentContainers{
+.contentContainers {
     display: flex;
     margin: 140px 0 0 0;
 }
@@ -45,23 +45,38 @@
     margin-right: 100px;
 }
 
-#mainInfoContainers{
+#mainInfoContainers {
     margin: 100px;
     padding-bottom: 100px;
 }
 
-.contentTextContainer h1{
+.contentTextContainer h1 {
     font-size: 80px;
 }
-.contentTextContainer p{
+
+.contentTextContainer p {
     font-size: 30px;
 }
 
+@media only screen and (max-width: 1550px) {
+    #mainInfoContainers .contentContainers {
+        /*border: 2px solid red;*/
+        text-align: center;
+        display: block;
+        margin-top: 140px;
+    }
+    #mainInfoContainers div:nth-child(even) {
+        margin-right: 0;
+    }
+    .contentImageContainer img {
+        /*border: 2px solid blue;*/
+        margin: auto;
+    }
+}
 
 @media only screen and (max-width: 1040px) {
-    #indexBannerTextContainer{
+    #indexBannerTextContainer {
         transform: scale(0.7);
-        text-align: center;
     }
     #indexBannerContainer {
         display: flex;
@@ -78,7 +93,6 @@
 }
 
 @media only screen and (max-width: 830px) {
-
     #indexBannerContainer {
         background-image: url("images/p4billeder/kontaktos3f.jpg");
         background-position: center;
@@ -87,10 +101,49 @@
         width: 100%;
         background-size: cover;
     }
-
-    #indexBannerTextContainer{
+    #indexBannerTextContainer {
         transform: scale(0.5);
-        text-align: center;
-        margin-right: 90px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #mainInfoContainers{
+        margin: 30px;
+    }
+    .contentTextContainer h1 {
+        font-size: 40px;
+    }
+
+    .contentTextContainer p {
+        font-size: 30px;
+    }
+    .contentImageContainer img {
+        width: 400px;
+        height: 250px;
+    }
+    #mainInfoContainers .contentContainers{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .contentTextContainer h1 {
+        font-size: 30px;
+    }
+
+    .contentTextContainer p {
+        font-size: 20px;
+    }
+    .contentImageContainer img {
+        width: 300px;
+        height: 150px;
+    }
+    #mainInfoContainers .contentContainers{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #indexBannerTextContainer {
+        transform: scale(0.3);
     }
 }
