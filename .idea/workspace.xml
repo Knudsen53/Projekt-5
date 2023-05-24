@@ -21,11 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Road through trees wallpaper 1376.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/p4billeder/roadtrees.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/electric-car-charging-station.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/p4billeder/chargingstation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/shutterstock_2177925663.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/p4billeder/chargingcar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\p4billeder" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\Elements" />
@@ -81,7 +77,7 @@
       <workItem from="1684672125766" duration="13550000" />
       <workItem from="1684743027719" duration="19684000" />
       <workItem from="1684825648941" duration="13731000" />
-      <workItem from="1684918616961" duration="12444000" />
+      <workItem from="1684918616961" duration="16131000" />
     </task>
     <servers />
   </component>
