@@ -21,10 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,6 +79,7 @@
       <workItem from="1684672125766" duration="13550000" />
       <workItem from="1684743027719" duration="19684000" />
       <workItem from="1684825648941" duration="13731000" />
+      <workItem from="1684918616961" duration="4246000" />
     </task>
     <servers />
   </component>
@@ -105,9 +107,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="864" y="91" width="832" height="1218" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684867691453" />
-    <state x="1409" y="324" key="run.anything.popup" timestamp="1684685081394">
+    <state x="1409" y="324" key="run.anything.popup" timestamp="1684922152853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1409" y="324" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684685081394" />
+    <state x="1409" y="324" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684922152853" />
   </component>
 </project>

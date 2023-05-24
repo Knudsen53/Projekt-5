@@ -159,7 +159,8 @@ main {
     }
 
     #myInput {
-        width: 80px;
+        width: 50px;
+        margin-right: 10px;
     }
 
     #burgerMenuIcon {
@@ -175,15 +176,12 @@ main {
         object-fit: cover;
     }
 
- 
-
     #myMobileNavBarItems li a{
         text-decoration: none;
     }
-    /*#myMobileNavBar.open.animation {*/
-    /*    top: 100%; !* Reset the top position *!*/
-    /*}*/
-    /*.slim #myMobileNavBar.open {*/
-    /*    top: 100vh; !* Adjust this value if needed *!*/
-    /*}*/
+
+    #navLogo {
+        text-align: center;
+        font-size: 30px;
+    }
 }
