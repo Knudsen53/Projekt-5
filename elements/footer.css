@@ -73,3 +73,28 @@ footer p{
     margin: 0 10px 0 10px;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 1040px) {
+    #footerItemsContainer{
+        transform: scale(0.8);
+    }
+    #footerMediaContainer {
+        /*border: 2px solid pink;*/
+        display: block;
+    }
+
+    #footerMediaIconsContainer{
+        /*border: 2px solid red;*/
+        display: flex;
+    }
+    #footerLeft{
+        margin: 0 50px 0 50px;
+        padding: 0;
+    }
+
+    #footerRight {
+        margin: 0 50px 0 50px;
+        padding: 0;
+    }
+}
+
