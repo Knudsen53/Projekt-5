@@ -12,7 +12,7 @@ main {
 }
 
 #bannerTextContainer {
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     max-width: 500px;
     height: 500px;
     color: white;
@@ -164,9 +164,23 @@ main {
         text-align: center;
     }
     #bannerContainer {
-        left: 0;
+        display: flex;
+        justify-content: center;
     }
-
+    #bannerContainer {
+        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+    #contactImgContainer {
+        /*border: 2px solid blue;*/
+        display: grid;
+        grid-template-columns:auto auto;
+        gap: 20px;
+    }
 }
 
 @media only screen and (max-width: 830px) {
@@ -176,8 +190,28 @@ main {
     }
 
     #ContactContainer {
-        border: 2px solid black;
+        /*border: 2px solid black;*/
         display: block;
+    }
+    #bannerContainer {
+        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    #bannerTextContainer{
+        transform: scale(0.5);
+        text-align: center;
+        margin-right: 90px;
+    }
+    #contactImgContainer {
+        /*border: 2px solid blue;*/
+        display: grid;
+        grid-template-columns: auto;
+        gap: 0;
     }
 }
 
