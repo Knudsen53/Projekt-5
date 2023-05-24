@@ -1,3 +1,4 @@
+/*******************BANNER***********************/
 #indexBannerContainer {
     /*border: 4px solid red;*/
     background-image: url("images/p4billeder/forside4f.jpg");
@@ -25,19 +26,37 @@
     font-size: 60px;
 }
 
+/********************MAIN INFO******************/
 
 .contentImageContainer img{
     object-fit: cover;
     width: 500px;
     height: 350px;
+    margin-right: 100px;
 }
+
 .contentContainers{
     display: flex;
+    margin: 140px 0 0 0;
 }
 
 #mainInfoContainers div:nth-child(even) {
     flex-direction: row-reverse;
+    margin-right: 100px;
 }
+
+#mainInfoContainers{
+    margin: 100px;
+    padding-bottom: 100px;
+}
+
+.contentTextContainer h1{
+    font-size: 80px;
+}
+.contentTextContainer p{
+    font-size: 30px;
+}
+
 
 @media only screen and (max-width: 1040px) {
     #indexBannerTextContainer{
