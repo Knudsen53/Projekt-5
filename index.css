@@ -58,7 +58,7 @@
     font-size: 30px;
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1050px) { /*was 1550*/
     #mainInfoContainers .contentContainers {
         /*border: 2px solid red;*/
         text-align: center;
