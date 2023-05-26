@@ -189,7 +189,7 @@
 }
 
 .inner-container {
-  width: 50%;
+  width: 65%;
 }
 
 .row {
@@ -229,7 +229,7 @@
 
 .box.description-box {
   margin-top: 40px;
-  height: 250px;
+  height: 150px;
 }
 
 .box span.placeholder {
