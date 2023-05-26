@@ -94,11 +94,13 @@
   #next-section {
     text-align: center;
     padding: 50px 0;
+  
   }
 
   #next-section p {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 30px;
   }
   .section-heading {
     font-size: 24px;
@@ -126,7 +128,7 @@
   }
   
   .faq-box h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: normal;
