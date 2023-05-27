@@ -23,16 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/LoadContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutus/aboutus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutus/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/faq/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/faq/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readmore.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/readmore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +66,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\info" />
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\faq" />
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\aboutus" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\contact" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages" />
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images" />
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\p4billeder" />
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +96,7 @@
       <workItem from="1684825648941" duration="13731000" />
       <workItem from="1684918616961" duration="16131000" />
       <workItem from="1684999739505" duration="5378000" />
-      <workItem from="1685189898487" duration="1473000" />
+      <workItem from="1685189898487" duration="2944000" />
     </task>
     <servers />
   </component>
