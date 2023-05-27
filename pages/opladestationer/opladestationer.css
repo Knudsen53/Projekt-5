@@ -1,9 +1,23 @@
 .chargingItemsContainer{
-    border: 2px solid red;
-    /*width: 100%;*/
-    /*height: 100%;*/
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.sidePanelContainer{
+    /*border: 2px solid green;*/
+    box-sizing: border-box;
+    width: 25%;
+    height: 100vh;
+}
+
+.myGoogleMapsContainer{
+    /*border: 2px solid blue;*/
+    /*box-sizing: border-box;*/
+    width: 75%;
+    height: 100vh;
 }
 
