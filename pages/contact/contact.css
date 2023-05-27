@@ -3,7 +3,7 @@ main {
 }
 
 #bannerContainer {
-    background-image: url("images/p4billeder/kontaktos3f.jpg");
+    background-image: url("../../images/p4billeder/kontaktos3f.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -168,7 +168,7 @@ main {
         justify-content: center;
     }
     #bannerContainer {
-        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-image: url("../../images/p4billeder/kontaktos3f.jpg");
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -194,7 +194,7 @@ main {
         display: block;
     }
     #bannerContainer {
-        background-image: url("images/p4billeder/kontaktos3f.jpg");
+        background-image: url("../../images/p4billeder/kontaktos3f.jpg");
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;

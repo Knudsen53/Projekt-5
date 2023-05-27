@@ -23,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -51,24 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\contact" />
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\p4billeder" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5" />
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\Elements" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,6 +87,7 @@
       <workItem from="1684825648941" duration="13731000" />
       <workItem from="1684918616961" duration="16131000" />
       <workItem from="1684999739505" duration="5378000" />
+      <workItem from="1685189898487" duration="1473000" />
     </task>
     <servers />
   </component>
@@ -100,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1684749528362">
