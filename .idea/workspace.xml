@@ -23,7 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/elements/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/aboutus/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutus/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/faq/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/faq/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/info/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/info/readmore.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/faq/readmore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\info" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\faq" />
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\info" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\aboutus" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\contact" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages" />
@@ -84,7 +91,7 @@
       <workItem from="1684825648941" duration="13731000" />
       <workItem from="1684918616961" duration="16131000" />
       <workItem from="1684999739505" duration="5378000" />
-      <workItem from="1685189898487" duration="3293000" />
+      <workItem from="1685189898487" duration="3870000" />
     </task>
     <servers />
   </component>
@@ -104,6 +111,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="613" y="164" width="1883" height="1158" maximized="true" key="DiffContextDialog" timestamp="1685193612782">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="613" y="164" width="1883" height="1158" maximized="true" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1685193612782" />
     <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1684749528362">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -116,5 +127,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1409" y="324" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684922152853" />
+    <state x="1048" y="0" key="search.everywhere.popup" timestamp="1685193614068">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1048" y="0" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1685193614068" />
   </component>
 </project>
