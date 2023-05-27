@@ -8,37 +8,75 @@
     <!--    <script src="LoadContent.js" defer></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="elements/header.css">
     <script src="elements/header.js" defer></script>
     <link rel="stylesheet" href="elements/footer.css">
 </head>
 <body>
 <header id="header">
-    <div id="footerItemsContainer">
-        <div id="footerLeft">
-            <p class="footerHeading">GreenWheels</p>
-            <div id="line1"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fugit ipsam iste necessitatibus, nihil
-                perferendis ullam? A amet, asperiores ipsam possimus quidem reprehenderit veniam voluptatum? Assumenda
-                eveniet facilis necessitatibus sunt?</p>
-        </div>
-        <div id="lineMiddle"></div>
-        <div id="footerRight">
-            <div id="footerMediaContainer">
-                <p class="footerHeading">Sociale medier</p>
-                <div id="footerMediaIconsContainer">
-                    <img src="images/Assets/fb.png" alt="Sociale medier">
-                    <img src="images/Assets/insta.png" alt="Sociale medier">
-                    <img src="images/Assets/T.png" alt="Sociale medier">
-                    <img src="images/Assets/twitter.png" alt="Sociale medier">
+    <div id="headerContainer">
+        <nav id="navMenu">
+            <div id="navMenuItems">
+                <div id="navLogo">
+                    <a href="index.html">
+                        <img src="../../images/Assets/logo.png" alt="GreenWheels" id="navLogoImg">
+                    </a>
+                </div>
+                <div id="navListContainer">
+                    <ul id="navListItems">
+                        <li>
+                            <a href="../info/info.html">Elbil guiden</a>
+                        </li>
+                        <li>
+                            <a href="../opladestationer/opladestationer.html">Opladestationer</a>
+                        </li>
+                        <li>
+                            <a href="../faq/faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="../aboutus/aboutus.html">Om os</a>
+                        </li>
+                        <li>
+                            <a href="../contact/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="searchContainer">
+                    <input type="text" id="myInput" name="myInput" placeholder="søg her">
+                </div>
+
+
+                <div id="burgerMenu">
+                    <div id="burgerMenuIcon">
+                        <img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403"
+                             alt="Burgermenu">
+                    </div>
                 </div>
             </div>
-            <div id="line2"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic incidunt ipsam iusto quae quia quis, vitae!
-                Delectus dignissimos, ducimus expedita hic necessitatibus nihil perspiciatis provident quasi qui
-                repellendus
-                sit veritatis!</p>
-        </div>
+
+            <div id="mobileNavbarContainer">
+                <div id="myMobileNavBar">
+                    <ul id="myMobileNavBarItems">
+                        <li>
+                            <a href="../info/info.html">Elbil guiden</a>
+                        </li>
+                        <li>
+                            <a href="../opladestationer/opladestationer.html">Opladestationer</a>
+                        </li>
+                        <li>
+                            <a href="../faq/faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="../aboutus/aboutus.html">Om os</a>
+                        </li>
+                        <li>
+                            <a href="../contact/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
 </header>
 <main>
