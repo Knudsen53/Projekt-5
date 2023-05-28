@@ -1,7 +1,8 @@
 const faqConfig = {
     openBox: null,
+    clickedBox: null
   };
-
+  
   function initializeFAQBoxes() {
     const faqBoxes = document.querySelectorAll('.faq-box');
   
@@ -21,6 +22,9 @@ const faqConfig = {
           faqBox.classList.add('open');
           faqConfig.openBox = faqBox;
         }
+  
+        // Gem den senest klikkede boks
+        faqConfig.clickedBox = faqBox;
       });
   
       arrow.addEventListener('click', (event) => {
@@ -30,4 +34,3 @@ const faqConfig = {
   }
   
   initializeFAQBoxes();
-  
