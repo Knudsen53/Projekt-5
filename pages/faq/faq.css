@@ -121,10 +121,11 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add box shadow */
-    margin-bottom: -1px; /* Add negative margin to overlap borders */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: -1px;
     position: relative;
     line-height: 0.2;
+    cursor: pointer;
   }
   
   .faq-box h3 {
@@ -132,38 +133,69 @@
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: normal;
+    position: relative;
+    cursor: pointer;
   }
   
   .faq-box p {
     font-size: 14px;
   }
-
+  
   .faq-box h3,
-.faq-box p {
-  text-align: left;
-}
-
-.faq-box:first-child {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-.faq-box:last-child {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-.faq-box:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%) rotate(-45deg);
-  width: 6px;
-  height: 6px;
-  border-left: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-}
+  .faq-box p {
+    text-align: left;
+  }
+  
+  .faq-box:first-child {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  
+  .faq-box:last-child {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .faq-box h3 .arrow {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) rotate(-45deg);
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .faq-box.open .answer {
+    display: block;
+    background-color: #c4e8c7;
+  }
+  
+  .arrow {
+    font-size: 16px;
+    float: right;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-box.open .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .faq-box.clicked {
+    background-color: #c4e8c7;
+  }
+  
+  .faq-box.clicked * {
+    background-color: #c4e8c7;
+  }
 
 #contact-section {
   text-align: center;
