@@ -6,32 +6,32 @@ const listen = [
     {
         navn: "Anton",
         titel: "HR Manager",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ96es-kWDzgeioyXfNtqKaVdJFPEQa9IMDw&usqp=CAU"
-    },
-    {
-        navn: "Andy",
-        titel: "HR Assistent",
-        img: "https://pbs.twimg.com/media/Fr5_59xWAAoYAT6.jpg"
+        img: "../../images/employees/download.jpg"
     },
     {
         navn: "Agnete",
         titel: "HR Assistent",
-        img: "https://pbs.twimg.com/media/Fr5_59xWAAoYAT6.jpg"
+        img: "../../images/employees/download(1).jpg"
+    },
+    {
+        navn: "Andy",
+        titel: "HR Assistent",
+        img: "../../images/employees/download(2).jpg"
     },
     {
         navn: "Amanda",
         titel: "Markething Manager",
-        img: "https://pbs.twimg.com/media/Fr5_59xWAAoYAT6.jpg"
+        img: "../../images/employees/download(3).jpg"
     },
     {
         navn: "Anya",
         titel: "Markething Assistent",
-        img: "https://pbs.twimg.com/media/Fr5_59xWAAoYAT6.jpg"
+        img: "../../images/employees/download(4).jpg"
     },
     {
         navn: "Antoinette",
-        titel: "Bager",
-        img: "https://pbs.twimg.com/media/Fr5_59xWAAoYAT6.jpg"
+        titel: "SoMe Manager",
+        img: "../../images/employees/download(5).jpg"
     }
 ];
 

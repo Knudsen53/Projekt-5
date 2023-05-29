@@ -23,9 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/contact/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download(6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/employees/download.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\employees" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\faq" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\info" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\aboutus" />
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages\contact" />
-      <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +93,7 @@
       <workItem from="1685189898487" duration="4267000" />
       <workItem from="1685201634961" duration="3134000" />
       <workItem from="1685271838090" duration="1819000" />
-      <workItem from="1685362391859" duration="10041000" />
+      <workItem from="1685362391859" duration="11434000" />
     </task>
     <servers />
   </component>
