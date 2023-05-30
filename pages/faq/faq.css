@@ -320,4 +320,28 @@
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .big-box {
+    flex-direction: column;
+    border-radius: 25px;
+  }
+
+  .inner-container {
+    width: 100%;
+  }
+
+  .image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    padding: 10px;
+  }
+  
+  .box.description-box {
+    height: 100px;
+  }
+}
 
