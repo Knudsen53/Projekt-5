@@ -2,9 +2,9 @@ console.log("Mit contact script virker");
 
 
 ////////////////////////////////Add employees/////////////////////////////////////////
-let fancybox = document.getElementById("contactImgContainer");
+let employeeContainer = document.getElementById("contactImgContainer");
 
-const listen = [
+const employeeList = [
     {
         navn: "Anton",
         titel: "HR Manager",
@@ -37,20 +37,21 @@ const listen = [
     }
 ];
 
-const presentpersen = (persen) => {
-    fancybox.innerHTML += `
+const addEmployeeToDOM = (name, title, image_url) => {
+    employeeContainer.innerHTML += `
     <div class="imgContainerItems">
-        <img src="${persen.img}" alt="Billede af medarbejder ${persen.navn}">
+        <img src="${image_url}" alt="Billede af medarbejder ${name}">
         <div class="imgContainerText">
-            <p>${persen.navn}</p>
-            <p>${persen.titel}</p>
+            <p>${name}</p>
+            <p>${title}</p>
         </div>
     </div>
     `;
 }
 
-for (let i = 0; i < listen.length; i++){
-    presentpersen(listen[i]);
+for (let i = 0; i < employeeList.length; i++){
+    const employee = employeeList[i]
+    addEmployeeToDOM(employee.navn, employee.titel, employee.img);
 }
 
 
