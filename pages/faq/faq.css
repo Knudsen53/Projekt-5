@@ -156,8 +156,7 @@
     border-bottom-right-radius: 25px;
   }
   
-  .faq-box h3 .arrow {
-    content: "";
+  .arrow {
     position: absolute;
     top: 50%;
     right: 10px;
