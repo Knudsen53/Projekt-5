@@ -4,7 +4,6 @@
 }
 
 #banner {
-    /*border: 2px solid red;*/
     position: relative;
     background-image: url("../../images/p4billeder/faq2f.jpg");
     background-position: center;
@@ -16,14 +15,14 @@
 
 .overlay {
     position: absolute;
-    top: 20%; /* Adjust the top position to move the overlay upwards */
-    left: 5%; /* Adjust the left position to move the overlay to the left */
+    top: 20%;
+    left: 5%; 
     right: 5%;
     bottom: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align the content to the left */
-    justify-content: flex-start; /* Align the content to the top */
+    align-items: flex-start;
+    justify-content: flex-start; 
     color: #fff;
     padding: 20px;
     text-align: left;
@@ -31,7 +30,7 @@
   
   .overlay h1 {
     font-size: 75px;
-    margin-bottom: 5px; /* Adjust the margin bottom to reduce space between the headline and the text */
+    margin-bottom: 5px; 
     text-shadow: #000000 0 2px 4px rgba(0, 0, 0, 1);
   }
   
@@ -42,17 +41,17 @@
 
   .overlay p {
     font-size: 18px;
-    margin-top: 0; /* Add margin top to align the text with the headline */
+    margin-top: 0;
     margin-left: 0;
     text-shadow: #000000 0 2px 4px rgba(0, 0, 0, 1);
   }
   
   .green-letter {
-    color: green; /* Apply green color to the specified letters */
+    color: green;
   }
   
   .banner-text {
-    margin-left: 20px; /* Adjust the left margin of the banner text */
+    margin-left: 20px;
   }
 
   .scroll-down {
@@ -81,14 +80,14 @@
   .scroll-text {
     font-size: 18px;
     color: #fff;
-    margin-bottom: -25px; /* Adjust the margin-bottom value as needed */
+    margin-bottom: -25px;
     margin-right: -10px;
   }
 
   .scroll-icon:before {
     content: "";
     position: absolute;
-    top: calc(50% + 12px); /* Adjust the top position to move the arrow down */
+    top: calc(50% + 12px);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 6px;

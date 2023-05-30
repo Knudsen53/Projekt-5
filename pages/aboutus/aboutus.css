@@ -4,7 +4,6 @@
 }
 
 #banner {
-    /*border: 2px solid red;*/
     position: relative;
     background-image: url("../../images/p4billeder/faq2f.jpg");
     background-position: center;
@@ -16,14 +15,14 @@
 
 .overlay {
     position: absolute;
-    top: 20%; /* Adjust the top position to move the overlay upwards */
-    left: 5%; /* Adjust the left position to move the overlay to the left */
+    top: 20%; 
+    left: 5%; 
     right: 5%;
     bottom: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align the content to the left */
-    justify-content: flex-start; /* Align the content to the top */
+    align-items: flex-start; 
+    justify-content: flex-start; 
     color: #fff;
     padding: 20px;
     text-align: left;
@@ -31,21 +30,21 @@
   
   .overlay h1 {
     font-size: 75px;
-    margin-bottom: 5px; /* Adjust the margin bottom to reduce space between the headline and the text */
+    margin-bottom: 5px; 
   }
   
   .overlay p {
     font-size: 18px;
-    margin-top: 0; /* Add margin top to align the text with the headline */
+    margin-top: 0; 
     margin-left: 0;
   }
   
   .green-letter {
-    color: green; /* Apply green color to the specified letters */
+    color: green; 
   }
   
   .banner-text {
-    margin-left: 20px; /* Adjust the left margin of the banner text */
+    margin-left: 20px; 
   }
 
   .section-text {
@@ -63,7 +62,7 @@
   font-size: 16px;
   font-weight: normal;
   padding-top: 30px;
-  max-width: 600px; /* Adjust the max-width value to control the line length */
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,14 +81,12 @@
 }
 
 #contactImgContainer {
-  /*border: 2px solid blue;*/
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 40px;
 }
 
 .imgContainerItems {
-  /*border: 2px solid red;*/
   margin: auto;
 }
 
@@ -105,9 +102,7 @@
 
 
 #ourWorkersContainer {
-  /*border: 2px solid green;*/
   max-width: 1300px;
-  /*width: 75%;*/
   margin: auto;
 }
 
@@ -118,7 +113,69 @@
 }
 
 .imgContainerText {
-  /*border: 2px solid green;*/
+  
   text-align: center;
   font-size: 28px;
 }
+
+@media only screen and (max-width: 1040px) {
+  .contactInfoContainers {
+      transform: scale(0.8);
+      margin: 0 10px 0 10px;
+  }
+
+  #bannerTextContainer{
+      transform: scale(0.7);
+      text-align: center;
+  }
+  #bannerContainer {
+      display: flex;
+      justify-content: center;
+  }
+  #bannerContainer {
+      background-image: url("../../images/p4billeder/kontaktos3f.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+  }
+  #contactImgContainer {
+      
+      display: grid;
+      grid-template-columns:auto auto;
+      gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .contactInfoContainers {
+      transform: scale(0.7);
+      margin: auto;
+  }
+
+  #ContactContainer {
+     
+      display: block;
+  }
+  #bannerContainer {
+      background-image: url("../../images/p4billeder/kontaktos3f.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+  }
+
+  #bannerTextContainer{
+      transform: scale(0.5);
+      text-align: center;
+      margin-right: 90px;
+  }
+  #contactImgContainer {
+      display: grid;
+      grid-template-columns: auto;
+      gap: 0;
+  }
+}
+
