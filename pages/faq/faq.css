@@ -30,14 +30,21 @@
   }
   
   .overlay h1 {
-    font-size: 32px;
+    font-size: 75px;
     margin-bottom: 5px; /* Adjust the margin bottom to reduce space between the headline and the text */
+    text-shadow: #000000 0 2px 4px rgba(0, 0, 0, 1);
   }
   
+  .overlay h2 {
+    font-size: 35px;
+    text-shadow: #000000 0 2px 4px rgba(0, 0, 0, 1);
+  }
+
   .overlay p {
     font-size: 18px;
     margin-top: 0; /* Add margin top to align the text with the headline */
     margin-left: 0;
+    text-shadow: #000000 0 2px 4px rgba(0, 0, 0, 1);
   }
   
   .green-letter {
