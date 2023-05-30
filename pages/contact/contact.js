@@ -1,5 +1,7 @@
 console.log("Mit contact script virker");
 
+
+////////////////////////////////Add employees/////////////////////////////////////////
 let fancybox = document.getElementById("contactImgContainer");
 
 const listen = [
@@ -52,3 +54,39 @@ for (let i = 0; i < listen.length; i++){
 }
 
 
+//////////////////////////////////Color GreenWheels///////////////////////////////////////
+
+// let heading = document.getElementById('greenWheelsHeading');
+//
+// // Get text of the h1 element
+// let text = heading.textContent;
+//
+// // Convert the text to an array of characters
+// let chars = text.split('');
+//
+// // Create array and add the characters to an array
+// let listeafbogstaver = []
+// listeafbogstaver.push(chars);
+//
+// console.log(listeafbogstaver);
+//
+// // Color index 0 and 5
+//
+// for (let i = 0; i < listeafbogstaver.length; i++){
+//     if (i === "G") || (i === "W"){
+//         color that index spot green
+//     }
+// }
+
+
+// Replace the target letters with a <span> element and apply the green color
+// var modifiedText = chars.map(function(char) {
+//     if (char === 'G' || char === 'W') {
+//         return '<span class="green-letters">' + char + '</span>';
+//     } else {
+//         return char;
+//     }
+// }).join('');
+//
+// // Update the HTML content of the <h1> element with the modified text
+// heading.innerHTML = modifiedText;
