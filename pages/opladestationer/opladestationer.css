@@ -12,11 +12,26 @@
     box-sizing: border-box;
     width: 25%;
     height: 100vh;
+    text-align: center;
+}
+
+.searchField{
+    margin-top: 50px;
+}
+
+#searchFieldInput{
+    width: 75%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
 }
 
 .myGoogleMapsContainer{
-    /*border: 2px solid blue;*/
-    /*box-sizing: border-box;*/
     width: 75%;
     height: 100vh;
 }
