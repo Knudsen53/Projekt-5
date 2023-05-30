@@ -29,7 +29,6 @@ function handleSubmit(event) {
   if (formSubmissions.length >= 2) {
     alert('You have reached the maximum number of submissions.');
 
-    // Start the timer for resetting the maximum submissions after 10 seconds
     startTimer();
   } else {
     alert('Form submitted successfully!');
@@ -55,23 +54,19 @@ function displaySubmissions() {
 }
 
 function startTimer() {
-  const resetTime = 3; // 3 seconds
+  const resetTime = 3;
   let timeRemaining = resetTime;
 
-  // Display the initial countdown
   alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
 
-  // Disable the "Send" button
+
   document.getElementById('submit-btn').disabled = true;
 
-  // Update the countdown every second
   timerId = setInterval(() => {
     timeRemaining--;
 
-    // Display the updated countdown
     alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
 
-    // When the countdown reaches 0, reset the maximum submissions and enable the submit button
     if (timeRemaining === 0) {
       clearInterval(timerId);
       formSubmissions.length = 0;
@@ -81,5 +76,4 @@ function startTimer() {
   }, 300);
 }
 
-// Add an event listener to the form submit event
 document.getElementById('submit-btn').addEventListener('click', handleSubmit);
