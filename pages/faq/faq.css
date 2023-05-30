@@ -250,12 +250,12 @@
   flex: 1;
   background-color: #fff;
   padding: 20px;
-  cursor: text;
   border-radius: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  height: 10px;
+  height: auto;
   text-align: left;
   align-items: center;
+  pointer-events: auto;
 }
 
 .box.name-box {
@@ -271,8 +271,13 @@
   height: 150px;
 }
 
-.box span.placeholder {
+.box input.placeholder {
   color: #888;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 .box.send-box {
@@ -282,7 +287,6 @@
   background-color: #fff;
   cursor: pointer;
 }
-
 
 .image-container {
   height: 720px;
@@ -319,6 +323,12 @@
 .checkbox-box label {
   margin: 0;
 }
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
 
 @media (max-width: 768px) {
   .big-box {

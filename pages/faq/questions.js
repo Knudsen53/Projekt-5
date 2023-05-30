@@ -1,62 +1,85 @@
-// Accessing DOM elements
-const nameInput = document.getElementById('name-input');
-const surnameInput = document.getElementById('surname-input');
-const emailInput = document.getElementById('email-input');
-const topicInput = document.getElementById('topic-input');
-const descriptionInput = document.getElementById('description-input');
-const contactCheckbox = document.getElementById('contact-checkbox');
-const sendButton = document.getElementById('send-button');
+const formSubmissions = [];
+let timerId;
 
-// Event listener for the Send button
-sendButton.addEventListener('click', function() {
-  // Retrieve the values from the input fields
-  const name = nameInput.value;
-  const surname = surnameInput.value;
-  const email = emailInput.value;
-  const topic = topicInput.value;
-  const description = descriptionInput.value;
-  const allowContact = contactCheckbox.checked;
+function handleSubmit(event) {
+  event.preventDefault();
 
-  // Perform validation if needed
+  const navn = document.getElementById('navn').value;
+  const efternavn = document.getElementById('efternavn').value;
+  const emne = document.getElementById('emne').value;
+  const email = document.getElementById('email').value;
+  const beskrivelse = document.getElementById('beskrivelse').value;
 
-  // Create an object with the form data
   const formData = {
-    name: name,
-    surname: surname,
-    email: email,
-    topic: topic,
-    description: description,
-    allowContact: allowContact
+    navn,
+    efternavn,
+    emne,
+    email,
+    beskrivelse
   };
 
-  // Perform further operations with the form data, such as sending it to a server
+  formSubmissions.push(formData);
 
-  // Clear the input fields
-  nameInput.value = '';
-  surnameInput.value = '';
-  emailInput.value = '';
-  topicInput.value = '';
-  descriptionInput.value = '';
-  contactCheckbox.checked = false;
+  document.getElementById('navn').value = '';
+  document.getElementById('efternavn').value = '';
+  document.getElementById('emne').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('beskrivelse').value = '';
 
-  // Display a confirmation message or perform any other desired actions
-  alert('Form submitted successfully!');
-});
+  if (formSubmissions.length >= 2) {
+    alert('You have reached the maximum number of submissions.');
 
-// Event listeners for the name, surname, email, and topic boxes
-nameInput.addEventListener('click', function() {
-  // Clear the placeholder text when clicked
-  nameInput.placeholder = '';
-});
+    // Start the timer for resetting the maximum submissions after 10 seconds
+    startTimer();
+  } else {
+    alert('Form submitted successfully!');
+  }
 
-surnameInput.addEventListener('click', function() {
-  surnameInput.placeholder = '';
-});
+  displaySubmissions();
+}
 
-emailInput.addEventListener('click', function() {
-  emailInput.placeholder = '';
-});
+function displaySubmissions() {
+  const submissionsList = document.getElementById('submissions-list');
+  submissionsList.innerHTML = '';
 
-topicInput.addEventListener('click', function() {
-  topicInput.placeholder = '';
-});
+  if (formSubmissions.length === 0) {
+    submissionsList.innerHTML = 'No submissions yet.';
+  } else {
+    for (let i = 0; i < formSubmissions.length; i++) {
+      const submission = formSubmissions[i];
+      const listItem = document.createElement('li');
+      listItem.textContent = `${submission.navn} ${submission.efternavn}: ${submission.emne}`;
+      submissionsList.appendChild(listItem);
+    }
+  }
+}
+
+function startTimer() {
+  const resetTime = 3; // 3 seconds
+  let timeRemaining = resetTime;
+
+  // Display the initial countdown
+  alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+
+  // Disable the "Send" button
+  document.getElementById('submit-btn').disabled = true;
+
+  // Update the countdown every second
+  timerId = setInterval(() => {
+    timeRemaining--;
+
+    // Display the updated countdown
+    alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+
+    // When the countdown reaches 0, reset the maximum submissions and enable the submit button
+    if (timeRemaining === 0) {
+      clearInterval(timerId);
+      formSubmissions.length = 0;
+      document.getElementById('submit-btn').disabled = false;
+      alert('Maximum submissions have been reset. You can now submit the form.');
+    }
+  }, 300);
+}
+
+// Add an event listener to the form submit event
+document.getElementById('submit-btn').addEventListener('click', handleSubmit);
