@@ -31,6 +31,27 @@
     -moz-box-shadow: 1px 6px 12px -2px rgba(0, 0, 0, 0.75);
 }
 
+#chargeItems{
+    /*border: 2px solid red;*/
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+#chargeFastness{
+    /*border: 2px solid green;*/
+    margin-top: 20px;
+    font-size: 20px;
+}
+#chargeType{
+    /*border: 2px solid blue;*/
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.inputCheckboxContainer .inputCheckbox {
+    height: 50px;
+    width: 50px;
+}
 .myGoogleMapsContainer{
     width: 75%;
     height: 100vh;
