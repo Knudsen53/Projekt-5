@@ -21,6 +21,10 @@ main {
     margin-left: 100px;
 }
 
+.green-letter {
+    color: green;
+}
+
 #bannerTextContainer h1 {
     font-size: 75px;
     margin: 10px 0 10px 0;
