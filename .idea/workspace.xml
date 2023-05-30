@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/elements/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/opladestationer/opladestationer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,8 @@
       <workItem from="1685201634961" duration="3134000" />
       <workItem from="1685271838090" duration="1819000" />
       <workItem from="1685362391859" duration="12799000" />
-      <workItem from="1685431613775" duration="3880000" />
+      <workItem from="1685431613775" duration="4094000" />
+      <workItem from="1685436379614" duration="975000" />
     </task>
     <servers />
   </component>

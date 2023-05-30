@@ -4,145 +4,155 @@
     <meta charset="UTF-8">
     <title>GreenWheels</title>
     <link rel="stylesheet" href="../../main.css">
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>-->
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
-<!--    <script src="../../LoadContent.js" defer></script>-->
+    <!--    <script src="../../LoadContent.js" defer></script>-->
     <script src="opladestationer.js" defer></script>
     <link rel="stylesheet" href="opladestationer.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCUkMGL1qJr-05Oj2ASbgEAqruWiyQxm4&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCUkMGL1qJr-05Oj2ASbgEAqruWiyQxm4&callback=initMap"
+            async defer></script>
     <link rel="stylesheet" href="../../elements/header.css">
     <link rel="stylesheet" href="../../elements/footer.css">
     <script src="../../elements/header.js" defer></script>
 
 </head>
 <body>
-    <header id="header">
-        <div id="headerContainer">
-            <nav id="navMenu">
-                <div id="navMenuItems">
-                    <div id="navLogo">
-                        <a href="../../index.html">
-                            <img src="../../images/Assets/logo.png" alt="GreenWheels" id="navLogoImg">
-                        </a>
-                    </div>
-                    <div id="navListContainer">
-                        <ul id="navListItems">
-                            <li>
-                                <a href="../info/info.html">Elbil guiden</a>
-                            </li>
-                            <li>
-                                <a href="opladestationer.html">Opladestationer</a>
-                            </li>
-                            <li>
-                                <a href="../faq/faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="../aboutus/aboutus.html">Om os</a>
-                            </li>
-                            <li>
-                                <a href="../contact/contact.html">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="searchContainer">
-                        <input type="text" id="myInput" name="myInput" placeholder="søg her">
-                    </div>
-
-
-                    <div id="burgerMenu">
-                        <div id="burgerMenuIcon">
-                            <img src="../../images/Assets/Burgermenu.png"
-                                 alt="Burgermenu">
-                        </div>
-                    </div>
+<header id="header">
+    <div id="headerContainer">
+        <nav id="navMenu">
+            <div id="navMenuItems">
+                <div id="navLogo">
+                    <a href="../../index.html">
+                        <img src="../../images/Assets/logo.png" alt="GreenWheels" id="navLogoImg">
+                    </a>
+                </div>
+                <div id="navListContainer">
+                    <ul id="navListItems">
+                        <li>
+                            <a href="../info/info.html">Elbil guiden</a>
+                        </li>
+                        <li>
+                            <a href="opladestationer.html">Opladestationer</a>
+                        </li>
+                        <li>
+                            <a href="../faq/faq.html">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="../aboutus/aboutus.html">Om os</a>
+                        </li>
+                        <li>
+                            <a href="../contact/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="searchContainer">
+                    <input type="text" id="myInput" name="myInput" placeholder="søg her">
                 </div>
 
-                <div id="mobileNavbarContainer">
-                    <div id="myMobileNavBar">
-                        <ul id="myMobileNavBarItems">
-                            <li>
-                                <a href="../info/info.html">Elbil guiden</a>
-                            </li>
-                            <li>
-                                <a href="opladestationer.html">Opladestationer</a>
-                            </li>
-                            <li>
-                                <a href="../faq/faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="../aboutus/aboutus.html">Om os</a>
-                            </li>
-                            <li>
-                                <a href="../contact/contact.html">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
 
-    </header>
-    <main>
-        <div class="chargingItemsContainer">
-            <div class="sidePanelContainer">
-                <div>
-                    <input type="search" placeholder="Søg her">
-                </div>
-                <div>
-                    <p>Hastighed</p>
-                    <div>
-                        <input type="checkbox" placeholder="check">
-                        <input type="checkbox" placeholder="check">
-                        <input type="checkbox" placeholder="check">
-                        <input type="checkbox" placeholder="check">
-                    </div>
-                </div>
-                <div>
-                    <p>Stiktype</p>
-                    <div>
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
-                        <input type="checkbox" placeholder="Check" id="">
+                <div id="burgerMenu">
+                    <div id="burgerMenuIcon">
+                        <img src="../../images/Assets/Burgermenu.png"
+                             alt="Burgermenu">
                     </div>
                 </div>
             </div>
-            <div class="myGoogleMapsContainer">
-                <div id="myGoogleMaps" style="height: 100%; width: 100%;"></div>
-            </div>
-        </div>
 
-    </main>
-    <footer id="footer">
-        <div id="footerItemsContainer">
-            <div id="footerLeft">
-                <p class="footerHeading">GreenWheels</p>
-                <div id="line1"></div>
-                <p>GreenWheels er en elbil informationssite.<br> Vi bestræber os efter at give dig den nyeste viden indenfor elbiler og hvorfor det er rigtig vigtig at få flere over på elbil-vognen.
-                    <br>Vi skal nå vores klima mål til 2030 og derfor har vi brug for så mange som muligt springer ud i noget nyt og bedre indenfor bil verden. </p>
-            </div>
-            <div id="lineMiddle"></div>
-            <div id="footerRight">
-                <div id="footerMediaContainer">
-                    <p class="footerHeading">Sociale medier</p>
-                    <div id="footerMediaIconsContainer">
-                        <img src="../../images/Assets/fb.png" alt="Sociale medier">
-                        <img src="../../images/Assets/insta.png" alt="Sociale medier">
-                        <img src="../../images/Assets/T.png" alt="Sociale medier">
-                        <img src="../../images/Assets/twitter.png" alt="Sociale medier">
-                    </div>
+            <div id="mobileNavbarContainer">
+                <div id="myMobileNavBar">
+                    <ul id="myMobileNavBarItems">
+                        <li>
+                            <a href="../info/info.html">Elbil guiden</a>
+                        </li>
+                        <div class="liLine"></div>
+                        <li>
+                            <a href="opladestationer.html">Opladestationer</a>
+                        </li>
+                        <div class="liLine"></div>
+                        <li>
+                            <a href="../faq/faq.html">FAQ</a>
+                        </li>
+                        <div class="liLine"></div>
+                        <li>
+                            <a href="../aboutus/aboutus.html">Om os</a>
+                        </li>
+                        <div class="liLine"></div>
+                        <li>
+                            <a href="../contact/contact.html">Kontakt</a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="line2"></div>
-                <p>Tag dig endelig din tid til at besøge vores sociale medier. Vi har både facebook, instragram, TikTok samt twitter I brug. Vi Mener de sociale medier er en vigtig platform for at få vores budskab formidlet ud til alle aldre.<br> Det er derfor vi har valgt at sprede os ud på flere medier for at ramme flest mulige.
+            </div>
+        </nav>
+    </div>
 
-                    Giv os et follow på de diverse medier og aldrig mis de nyeste informationer og nyheder fra GreenWheels</p>
+</header>
+<main>
+    <div class="chargingItemsContainer">
+        <div class="sidePanelContainer">
+            <div>
+                <input type="search" placeholder="Søg her">
+            </div>
+            <div>
+                <p>Hastighed</p>
+                <div>
+                    <input type="checkbox" placeholder="check">
+                    <input type="checkbox" placeholder="check">
+                    <input type="checkbox" placeholder="check">
+                    <input type="checkbox" placeholder="check">
+                </div>
+            </div>
+            <div>
+                <p>Stiktype</p>
+                <div>
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                    <input type="checkbox" placeholder="Check" id="">
+                </div>
             </div>
         </div>
-    </footer>
+        <div class="myGoogleMapsContainer">
+            <div id="myGoogleMaps" style="height: 100%; width: 100%;"></div>
+        </div>
+    </div>
+
+</main>
+<footer id="footer">
+    <div id="footerItemsContainer">
+        <div id="footerLeft">
+            <p class="footerHeading">GreenWheels</p>
+            <div id="line1"></div>
+            <p>GreenWheels er en elbil informationssite.<br> Vi bestræber os efter at give dig den nyeste viden indenfor
+                elbiler og hvorfor det er rigtig vigtig at få flere over på elbil-vognen.
+                <br>Vi skal nå vores klima mål til 2030 og derfor har vi brug for så mange som muligt springer ud i
+                noget nyt og bedre indenfor bil verden. </p>
+        </div>
+        <div id="lineMiddle"></div>
+        <div id="footerRight">
+            <div id="footerMediaContainer">
+                <p class="footerHeading">Sociale medier</p>
+                <div id="footerMediaIconsContainer">
+                    <img src="../../images/Assets/fb.png" alt="Sociale medier">
+                    <img src="../../images/Assets/insta.png" alt="Sociale medier">
+                    <img src="../../images/Assets/T.png" alt="Sociale medier">
+                    <img src="../../images/Assets/twitter.png" alt="Sociale medier">
+                </div>
+            </div>
+            <div class="line2"></div>
+            <p>Tag dig endelig din tid til at besøge vores sociale medier. Vi har både facebook, instragram, TikTok samt
+                twitter I brug. Vi Mener de sociale medier er en vigtig platform for at få vores budskab formidlet ud
+                til alle aldre.<br> Det er derfor vi har valgt at sprede os ud på flere medier for at ramme flest
+                mulige.
+                Giv os et follow på de diverse medier og aldrig mis de nyeste informationer og nyheder fra GreenWheels
+            </p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
