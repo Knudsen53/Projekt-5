@@ -57,7 +57,7 @@ function startTimer() {
   const resetTime = 3;
   let timeRemaining = resetTime;
 
-  alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+  alert(`Maximum indsendte formulare vil nulstille om ${timeRemaining} sekunder.`);
 
 
   document.getElementById('submit-btn').disabled = true;
@@ -65,13 +65,13 @@ function startTimer() {
   timerId = setInterval(() => {
     timeRemaining--;
 
-    alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+    alert(`Maximum indsendte formulare vil nulstille om ${timeRemaining} sekunder.`);
 
     if (timeRemaining === 0) {
       clearInterval(timerId);
       formSubmissions.length = 0;
       document.getElementById('submit-btn').disabled = false;
-      alert('Maximum submissions have been reset. You can now submit the form.');
+      alert('Maximum formulare er nu nulstillet. Du kan nu indsende formulare igen.');
     }
   }, 300);
 }
