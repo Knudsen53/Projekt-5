@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b99569-32d3-450e-ad65-07d6906c9835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Megao\OneDrive\Dokumenter\GitHub\Projekt-5\images\p4billeder" />
@@ -90,6 +89,7 @@
       <workItem from="1685362391859" duration="12799000" />
       <workItem from="1685431613775" duration="4094000" />
       <workItem from="1685436379614" duration="10036000" />
+      <workItem from="1685471930568" duration="5965000" />
     </task>
     <servers />
   </component>
@@ -106,28 +106,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="613" y="164" width="1883" height="1158" maximized="true" key="DiffContextDialog" timestamp="1685193612782">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="613" y="164" width="1883" height="1158" maximized="true" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1685193612782" />
-    <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1684749528362">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1374" y="108" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1684749528362" />
-    <state x="864" y="91" width="832" height="1218" key="find.popup" timestamp="1684867691453">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="864" y="91" width="832" height="1218" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684867691453" />
-    <state x="1409" y="324" key="run.anything.popup" timestamp="1684922152853">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1409" y="324" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1684922152853" />
-    <state x="1048" y="0" key="search.everywhere.popup" timestamp="1685193614068">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1048" y="0" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1685193614068" />
   </component>
 </project>

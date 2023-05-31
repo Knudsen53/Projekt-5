@@ -2,7 +2,7 @@ console.log("Mit contact script virker");
 
 
 ////////////////////////////////Add employees/////////////////////////////////////////
-let employeeContainer = document.getElementById("contactImgContainer");
+const employeeContainer = document.getElementById("contactImgContainer");
 
 const employeeList = [
     {
@@ -34,7 +34,8 @@ const employeeList = [
         navn: "Antoinette",
         titel: "SoMe Manager",
         img: "../../images/employees/download(5).jpg"
-    }
+    },
+
 ];
 
 const addEmployeeToDOM = (name, title, image_url) => {
@@ -50,9 +51,26 @@ const addEmployeeToDOM = (name, title, image_url) => {
 }
 
 for (let i = 0; i < employeeList.length; i++){
-    const employee = employeeList[i]
+    const employee = employeeList[i];
     addEmployeeToDOM(employee.navn, employee.titel, employee.img);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //////////////////////////////////Color GreenWheels///////////////////////////////////////
