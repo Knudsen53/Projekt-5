@@ -27,11 +27,11 @@ function handleSubmit(event) { //laver en funktion haldet handlesubmit, den tage
   document.getElementById('beskrivelse').value = '';
 
   if (formSubmissions.length >= 2) {                                    //tjekker om længden af formsubmission er højere eller det samme som 2 (basically tjekker om der er mere end 1 ting i listen formsubmissions.)
-    alert('You have reached the maximum number of submissions.');       //Hvis der er mere end én ting i formsubmission kør denne alert
+    alert('Du har nået max antal sendte formulare.');       //Hvis der er mere end én ting i formsubmission kør denne alert
 
     startTimer();                                                       //og kør funktionen starttimer()  -  () betyder at vi kalder en funktion
   } else {                                                              //Hvis der ikke er mere end én ting i formsubmission så:
-    alert('Form submitted successfully!');                              //kør denne alert
+    alert('Formularen er sendt');                              //kør denne alert
   }
 
   displaySubmissions();      //Vi kalder funktionen displaysubmissions
@@ -57,7 +57,7 @@ function startTimer() {
   const resetTime = 3;
   let timeRemaining = resetTime;
 
-  alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+  alert(`Maximum indsendte formulare vil nulstille om ${timeRemaining} sekunder.`);
 
 
   document.getElementById('submit-btn').disabled = true;
@@ -65,13 +65,13 @@ function startTimer() {
   timerId = setInterval(() => {
     timeRemaining--;
 
-    alert(`Maximum submissions will reset in ${timeRemaining} seconds.`);
+    alert(`Maximum indsendte formulare vil nulstille om ${timeRemaining} sekunder.`);
 
     if (timeRemaining === 0) {
       clearInterval(timerId);
       formSubmissions.length = 0;
       document.getElementById('submit-btn').disabled = false;
-      alert('Maximum submissions have been reset. You can now submit the form.');
+      alert('Maximum formulare er nu nulstillet. Du kan nu indsende formulare igen.');
     }
   }, 300);
 }
