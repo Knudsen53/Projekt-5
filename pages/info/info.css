@@ -1,87 +1,219 @@
 @charset "utf-8";
 /* CSS Document */
-.greenCarQuestienBox{
-	width: 100%;
-	height: 350px;
+.greenCarQuestienBox,
+.carPriceBox,
+.infoChargersBox,
+.abonnementBox,
+.ownChargerBox{
+	display: flex;
 }
 
-.greenCarQuestienH1{
-	float:right;
-	margin: 10px 50px 10px 10px;
+h1{
 	font-family: "Magistral Bold";
-	width: 600px;
-}
-.trees, .charger{
-	width: 350px;
-	height: 250px;
-	float: left;
-	margin: 10px 10px 10px 150px;
+	font-size: 40px;
 }
 
-.greenCarQuestien{
-	width: 600px;
-	height: 250px;
-	float: right;
-	margin: 10px 50px 10px 10px;
-	font-family: "Proxima Nova";
-}
-
-.carPriceBox{
-	width: 600px;
-	height: 150px;
-}
-
-.carPriceH1, .infoChargersH1, .infoChargersH3, .abonnementH1, .chargingTypesH1, .citychargersH3, .fasthargerH3, .lightningChargerH3, .teslaH3, .ownChargerH1{
-	float:left;
-	margin: 30px 10px 10px 50px;
+h3{
 	font-family: "Magistral Bold";
-	width: 600px;
-	clear: both;
-}	
-
-.carPrice, .infoChargers, .infoChargersList, .chargingTypes, .citychargers, .citychargersList, .fastharger, .fasthargerList, .lightningCharger, .lightningChargerList, .tesla, .teslaList{
-	width: 600px;
-	height: 70px;
-	float: left;
-	margin: 10px 10px 10px 50px;
+	font-size: 25px;
+}
+p, ul{
 	font-family: "Proxima Nova";
+	font-size: 18px;
 }
 
-.infoChargersBox{
-	width: 600px;
-	height: 650px;
+.greenCarQuestienImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
 }
 
-.providersLogo{
-	width: 600px;
-	height: 20px;
-	margin: 50px 10px 10px 10px;
-	float: left;
-}
-
-.abonnementBox, .ownChargerBox{
-	width: 100%;
-	height: 600px;
-}
-
-.charger{
-	float: left;
-	margin: 10px 50px 10px 10px;
+.trees{
 	width: 350px;
-	height: 240px;
+	height: 260px;
+	align: center;
+	margin-left: 100px;
 }
 
-.abonnement, .ownCharger{
-	width: 600px;
-	height: 250px;
-	float: right;
-	margin: 1px 50px 10px 10px;
-	font-family: "Proxima Nova"
+.greenCarQuestienTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
 }
 
+.carPriceImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.info{
+	width: 350px;
+	height: 149px;
+	margin-left: 100px;
+}
+
+.carPriceBoxTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+
+.infoChargersImg{
+    order: 2;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.chargers{
+	width: 350px;
+	height: 233px;
+	margin-left: 100px;
+}
+
+.infochargersTekst{
+	flex-direction: column;
+    order: 1;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	margin-left: 100px;
+}
+
+.abonnementImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.abonnementCar{
+	width: 350px;
+	height: 233px;
+	margin-left: 100px;
+}
+
+.abonnementTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
 .chargingTypesBox{
-	width: 600px;
-	height: 1000px;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chargingTypesTekst{
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	margin-left: 100px;
+}
+
+.city,
+.fast,
+.lightning,
+.tesla{
+	display: flex;
+}
+
+.cityChargersTekst
+{
+	flex-direction: column;
+    order: 1;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	margin-left: 100px;
+}
+
+.cityChargersImg
+{
+	order: 2;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.fastChargerImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.fastChargerTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 100px;
+}
+
+.lightningChargerImg{
+	order: 2;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-right: 100px;
+}
+
+.lightningChargerTekst{
+	flex-direction: column;
+    order: 1;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	margin-left: 100px;
+}
+.teslaImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.teslaTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 100px;
+}
+
+.ownChargerImg{
+	flex: 0 0 auto;
+	width: 500px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.ownChargerTekst{
+	width: 500px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 100px;
 }
 
 .image-container {
@@ -91,20 +223,26 @@
 	border-top: 2px black;
 	background-color: #2E362D;
 	padding: 20px;
+	overflow: hidden; /* Add this line to prevent horizontal overflow */
+
 }
 
 .image-wrapper {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
-    grid-gap: 1.5rem;
+    grid-gap:10px;
     position: relative;
     left: 0;
+	overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+	width: 100%;
+	align-content: center;
+	margin-right: 30px;
 }
 
 .car {
-    width: 300px;
-    height: 135px;
+    width: 250px;
+    height: 110px;
     object-fit: cover;
     display: block;
     margin: 40px;
@@ -115,12 +253,13 @@ div.desc {
   	text-align: center;
 	font-size: 20px;
 	background: #F6F6F6;
-	width: 300px;
+	width: 250px;
 	height: 120px;
 	font-family: "Proxima Nova";
 	margin: 40px;
 	border-radius: 15%;
 }
+
 
 .prev-btn,
 .next-btn {
@@ -142,3 +281,617 @@ div.desc {
   right: 10px;
 }
 
+
+@media (max-width: 768px){
+h1{
+	font-family: "Magistral Bold";
+	font-size: 35px;
+}
+	
+h3{
+	font-family: "Magistral Bold";
+	font-size: 20px;
+}
+	
+p, ul{
+	font-family: "Proxima Nova";
+	font-size: 15px;
+}
+
+.greenCarQuestienImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.trees{
+	width: 350px;
+	height: 260px;
+	align: center;
+	margin-left: 50px;
+}
+
+.greenCarQuestienTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+
+.carPriceImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.info{
+	width: 350px;
+	height: 149px;
+	margin-left: 50px;
+}
+
+.carPriceBoxTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+
+.infoChargersImg{
+    order: 2;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.chargers{
+	width: 350px;
+	height: 233px;
+	margin-left: 50px;
+}
+
+.infochargersTekst{
+	flex-direction: column;
+    order: 1;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.abonnementImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.abonnementCar{
+	width: 350px;
+	height: 233px;
+	margin-left: 50px;
+}
+
+.abonnementTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+.chargingTypesBox{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chargingTypesTekst{
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.city,
+.fast,
+.lightning,
+.tesla{
+	display: flex;
+}
+
+.cityChargersTekst
+{
+	flex-direction: column;
+    order: 1;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.cityChargersImg
+{
+	order: 2;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.fastChargerImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.fastChargerTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.lightningChargerImg{
+	order: 2;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-right: 50px;
+}
+
+.lightningChargerTekst{
+	flex-direction: column;
+    order: 1;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+.teslaImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.teslaTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.ownChargerImg{
+	flex: 0 0 auto;
+	width: 250px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.ownChargerTekst{
+	width: 250px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.image-container {
+    max-width: 100%;
+	height: 350px;
+	border-bottom: 2px black;
+	border-top: 2px black;
+	background-color: #2E362D;
+	padding: 15px;
+	overflow: hidden; /* Add this line to prevent horizontal overflow */
+
+}
+
+.image-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap:10px;
+    position: relative;
+    left: 0;
+	overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+	width: 100%;
+	align-content: center;
+	margin-right: 30px;
+}
+
+.car {
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+    margin: 40px;
+}
+
+div.desc {
+  	padding: 2px;
+  	text-align: center;
+	font-size: 15px;
+	background: #F6F6F6;
+	width: 200px;
+	height: 100px;
+	font-family: "Proxima Nova";
+	margin: 40px;
+	border-radius: 15%;
+}
+
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: #F6F6F6;
+  color: #2E362D;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.trees{
+	background-image: url("infoimg/trees1.jpg"); 
+	width: 200px;
+	height: 150px;
+}
+	
+.info{
+	background-image: url("infoimg/info1.jpg");
+	width: 200px;
+	height: 85px;
+}
+	
+.chargers{
+	background-image: url("infoimg/chargers1.jpg");	
+	width: 200px;
+	height: 133px;
+}
+	
+.abonnementCar{
+	background-image: url("infoimg/abonnementcar1.jpg");	
+	width: 200px;
+	height: 133px;	
+}
+	
+.type2, .type2-2{
+	background-image: url("infoimg/type21.jpg");	
+	width: 100px;
+	height: 100px;		
+}
+	
+.cha, .cha-2{
+	background-image: url("infoimg/cha1.jpg");	
+	width: 100px;
+	height: 123px;	
+}
+	
+.ccs1, .ccs1-2{
+	background-image: url("infoimg/ccs11.jpg");	
+	width: 100px;
+	height: 117px;		
+}
+	
+.ccs2, .ccs2-2{
+	background-image: url("infoimg/ccs21.jpg");	
+	width: 100px;
+	height: 113px;	
+}
+	
+.super{
+	background-image: url("infoimg/super1.jpg");	
+	width: 100px;
+	height: 115px;	
+}
+	
+.own{
+	background-image: url("infoimg/own1.jpg");	
+	width: 200px;
+	height: 133px;	
+}
+}
+
+@media (max-width: 480px)
+{
+h1{
+	font-family: "Magistral Bold";
+	font-size: 30px;
+}
+	
+h3{
+	font-family: "Magistral Bold";
+	font-size: 15px;
+}
+	
+p, ul{
+	font-family: "Proxima Nova";
+	font-size: 13px;
+}
+
+.greenCarQuestienImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.trees{
+	width: 180px;
+	height: auto;
+	align: center;
+	margin-left: 50px;
+}
+
+.greenCarQuestienTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+
+.carPriceImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.info{
+	width: 180px;
+	height: 149px;
+	margin-left: 50px;
+}
+
+.carPriceBoxTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+
+.infoChargersImg{
+    order: 2;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.chargers{
+	width: 180px;
+	height: 233px;
+	margin-left: 50px;
+}
+
+.infochargersTekst{
+	flex-direction: column;
+    order: 1;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.abonnementImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+}
+
+.abonnementCar{
+	width: 180px;
+	height: 233px;
+	margin-left: 50px;
+}
+
+.abonnementTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+}
+.chargingTypesBox{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chargingTypesTekst{
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.city,
+.fast,
+.lightning,
+.tesla{
+	display: flex;
+}
+
+.cityChargersTekst
+{
+	flex-direction: column;
+    order: 1;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+
+.cityChargersImg
+{
+	order: 2;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.fastChargerImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.fastChargerTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.lightningChargerImg{
+	order: 2;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-right: 50px;
+}
+
+.lightningChargerTekst{
+	flex-direction: column;
+    order: 1;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	margin-left: 50px;
+}
+.teslaImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.teslaTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.ownChargerImg{
+	flex: 0 0 auto;
+	width: 180px;
+	height: auto;
+	margin: 30px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.ownChargerTekst{
+	width: 180px;
+	height: auto;
+	flex: 1 1 auto;
+	margin: 30px;
+	margin-right: 50px;
+}
+
+.image-container {
+    max-width: 100%;
+	height: 350px;
+	border-bottom: 2px black;
+	border-top: 2px black;
+	background-color: #2E362D;
+	padding: 15px;
+	overflow: hidden; /* Add this line to prevent horizontal overflow */
+
+}
+
+.image-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap:10px;
+    position: relative;
+    left: 0;
+	overflow-x: hidden; /* Add this line to prevent horizontal overflow */
+	width: 100%;
+	align-content: center;
+	margin-right: 30px;
+}
+
+.car {
+    width: 150px;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+    margin: 40px;
+}
+
+div.desc {
+  	padding: 2px;
+  	text-align: center;
+	font-size: 15px;
+	background: #F6F6F6;
+	width: 200px;
+	height: 100px;
+	font-family: "Proxima Nova";
+	margin: 40px;
+	border-radius: 15%;
+}
+
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: #F6F6F6;
+  color: #2E362D;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+}
