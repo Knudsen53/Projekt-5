@@ -35,6 +35,8 @@ function handleSubmit(event) { //laver en funktion haldet handlesubmit, den tage
   }
 
   displaySubmissions();      //Vi kalder funktionen displaysubmissions
+
+
 }
 
 function displaySubmissions() {     //funktion displaysubmissions laves
